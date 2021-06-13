@@ -34,14 +34,21 @@ sys	0m0.056s
 
 
 main: begin [counter = 0]
+
 A: begin
+
 B: begin
+
 B: done
+
 A: done
+
 main: done [counter: 2000000] [should be: 2000000]
 
 real	0m5.326s
+
 user	0m2.230s
+
 sys	0m5.774s
 
 -------
