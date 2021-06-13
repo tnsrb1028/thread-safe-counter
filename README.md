@@ -58,5 +58,5 @@ Mutex is more faster than Semaphore.
 Mutex allows only one process or thread to access critical section.
 So,Mutex just locks and unlocks while access to critical section.
 But Semaphore allows multiple access depend on semid value.
-So, when they access to critical section they should check semid value and change semid value by using function. It makes more code lines.
+So, when they access to critical section they should check semid value and change semid value by using function. It makes more steps.
 This is why Semaphore takes more time than Mutex.
