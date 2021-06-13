@@ -9,16 +9,23 @@ Compiled in Linux
 # result of mutex
 
 
-main: begin [counter = 0];
-A: begin;
-B: begin;
-A: done;
-B: done;
+main: begin [counter = 0]
+
+A: begin
+
+B: begin
+
+A: done
+
+B: done
+
 main: done [counter: 2000000] [should be: 2000000];
 
-real	0m0.129s;
-user	0m0.195s;
-sys	0m0.056s;
+real	0m0.129s
+
+user	0m0.195s
+
+sys	0m0.056s
 
 ------
 
