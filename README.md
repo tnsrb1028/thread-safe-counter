@@ -5,9 +5,9 @@ Compiled in Linux
 
 
 
+------
+# result of mutex
 
-result of mutex
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 main: begin [counter = 0]/n
 A: begin
@@ -23,8 +23,8 @@ sys	0m0.056s
 ------
 
 
-result of semaphore
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# result of semaphore
+
 
 main: begin [counter = 0]
 A: begin
@@ -37,7 +37,7 @@ real	0m5.326s
 user	0m2.230s
 sys	0m5.774s
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+-------
 
 
 Mutex is more faster than Semaphore.
