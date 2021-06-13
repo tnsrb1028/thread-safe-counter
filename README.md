@@ -9,8 +9,8 @@ Compiled in Linux
 result of mutex
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-main: begin [counter = 0]\n
-A: begin
+  main: begin [counter = 0]
+  A: begin
 B: begin
 A: done
 B: done
